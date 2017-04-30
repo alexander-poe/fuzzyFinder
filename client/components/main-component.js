@@ -1,7 +1,7 @@
 import React from 'react';
 import info from '../data/info';
 import fuzzyFind from '../logic/fuzzyFind';
-import Header from './Header';
+import Header from './header';
 import Searchbar from './searchbar';
 import Results from './results';
 
