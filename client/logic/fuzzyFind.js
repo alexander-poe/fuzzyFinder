@@ -7,7 +7,7 @@ import React from 'react';
     for (let i = 0; i < text.length; i++) {
         let char = text[i];
         if (currentPosition < search.length && char.toLowerCase() == search[currentPosition]) {
-            char = <span key={char, i} style={{color: 'red'}}> {char} </span>;
+            char = ` ${char} `;
             currentPosition += 1;
         }
         characters.push(char);
