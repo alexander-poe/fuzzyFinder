@@ -11,5 +11,4 @@ Results.proptypes = {
 	data: React.PropTypes.string.isRequired, 
 }    
 
-
 export default Results;
