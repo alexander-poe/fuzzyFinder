@@ -21,8 +21,9 @@ class MainComponent extends React.Component {
 	render() {
         const data = info.map((item, idx) => {
             let result = fuzzyFind(item, this.state.input)
-            if (result && this.state.input) return <li key={idx}>{result}</li> 
+            if (result) return <li key={idx}>{result}</li> 
         })
+        console.log(data)
 		return (
     		<div>  
                 <Header />
