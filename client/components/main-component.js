@@ -23,7 +23,6 @@ class MainComponent extends React.Component {
             let result = fuzzyFind(item, this.state.input)
             if (result) return <li key={idx}>{result}</li> 
         })
-        console.log(data)
 		return (
     		<div>  
                 <Header />
